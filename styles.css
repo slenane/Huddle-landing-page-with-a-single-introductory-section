@@ -57,6 +57,7 @@ p {
     border-radius: 25px;
     font-size: 18px;
     color: hsl(257, 40%, 49%);
+    background-color: white;
 }
 
 .social {
