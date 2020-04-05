@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1440px;
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(./images/bg-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 30px 70px;
+}
+
+.navbar {
+    margin-bottom: 90px;
+}
+
+.logo {
+    width: 18%;
+}
+
+.container {
+    display: flex;
+    max-width: 1440px;
+}
+
+.headerImg {
+    max-width: 800px
+}
+
+.text {
+    padding: 0 30px 0 40px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 1.3;
+    margin: 40px auto 30px;
+}
+
+p {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+.mainButton {
+    width: 38%;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+}
+
+.social {
+    float: right;
+}
+
+
+.socialMedia {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+    opacity: 0.8;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    height: 40px;
+    width: 40px;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (max-width: 768px) {
+    /* MOBILE VIEWPORT */
+
+    body {
+        background-image: url(./images/bg-mobile.svg);
+        max-width: 375px;
+        background-size: auto;
+        padding: 30px 20px 20px 20px;
+    } 
+
+    .navbar {
+
+        margin-bottom: 50px;
+    }
+    
+    .logo {
+        width: 40%;
+    }
+
+    .container {
+        flex-direction: column;
+        max-width: 375px;
+    }
+
+    .headerImg {
+        max-width: 95%;
+    }
+
+    .text {
+        padding: 0;
+        max-width: 95%;
+        text-align: center;
+    }
+    
+    h1 {
+        font-size: 25px;
+        margin: 50px auto 20px;
+    }
+    
+    p {
+        font-size: 17px;
+        padding-bottom: 5px;
+    }
+    
+    .mainButton {
+        height: 40px;
+        width: 65%;
+        font-size: 13px;
+        color: hsl(257, 40%, 49%);
+    }
+
+    .social {
+        padding-right: 110px;
+        padding-top: 60px;
+    }
+
+    .socialMedia {
+        height: 30px;
+        width: 30px;
+    }
+
+    footer {
+        margin-top: 120px;
+    }
+    
+}
